@@ -1,12 +1,10 @@
-nums = [1,1,2,3,4,5,5,5,6]
-def removeDuplicates(nums):
-    if not nums:
-        return 0
-    i = 0
-    
-    for j in range(1,len(nums)):
-        if nums[j] != nums[i]:
-            i += 1
-            nums[i] = nums[j]
-    return i + 1
-print(removeDuplicates(nums))    
+s = ["h","e","l","l","o"]
+def reverse(s):
+    left, right = 0, len(s) - 1
+    while left < right:
+        s[left], s[right] = s[right], s[left]
+        left += 1
+        right -= 1
+        
+    return s
+print(reverse(s)) 
