@@ -1,4 +1,4 @@
-# 🚀 Day 19 – Contains Duplicate II
+# 🚀 Day 5 – Contains Duplicate II
 
 ## 📌 Problem
 
